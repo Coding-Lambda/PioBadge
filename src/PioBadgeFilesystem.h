@@ -1,5 +1,5 @@
-#ifndef PioFilesystem_h
-#define PioFilesystem_h
+#ifndef PioBadgeFilesystem_h
+#define PioBadgeFilesystem_h
 
 #include <Adafruit_TinyUSB.h>
 #include <Adafruit_SPIFlash.h>

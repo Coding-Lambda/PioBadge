@@ -10,6 +10,7 @@ bool PioBadge::begin()
     }
 
     input.begin();
+    sensor.begin();
 
     return true;
 }

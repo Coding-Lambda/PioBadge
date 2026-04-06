@@ -70,8 +70,6 @@ void PioBadgeInput::update()
     // if ((_right_button >= 0) && !digitalRead(_right_button))
     //     buttons |= ARCADA_BUTTONMASK_RIGHT;
 
-    Serial.println(buttons, 2);
-
     lastButtons = currentButtons;
     currentButtons = buttons;
     newlyPressedButtons = (lastButtons ^ currentButtons) & currentButtons;
